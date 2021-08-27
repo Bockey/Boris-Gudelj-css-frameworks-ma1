@@ -94,7 +94,7 @@ nav .show {
           justify-content: space-evenly;
 }
 
-.row div {
+.row .blocks {
   background-color: #f4f3ee;
   margin: 2em;
   border-radius: 15px;
