@@ -1,0 +1,17 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  background-color: $secondary;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+.wrapper {
+  flex: 1 0 auto;
+}

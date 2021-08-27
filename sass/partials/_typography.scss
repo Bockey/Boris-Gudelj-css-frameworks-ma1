@@ -1,0 +1,17 @@
+h1,
+p,
+span,
+li {
+  font-family: $secondary-font;
+  color: $text-color;
+}
+a {
+  font-family: $primary-font;
+  color: $text-color;
+}
+h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 34px;
+  padding: 4em 0 0 0;
+}

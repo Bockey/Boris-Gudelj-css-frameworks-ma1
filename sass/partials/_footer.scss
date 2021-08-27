@@ -1,0 +1,23 @@
+footer {
+  background-color: white;
+  padding: 1em 0;
+  display: flex;
+  flex-shrink: 0;
+  @media (min-width: 769px) {
+    background-color: $primary;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @media (min-width: 769px) {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+  span {
+    margin: 1em 0;
+  }
+}
